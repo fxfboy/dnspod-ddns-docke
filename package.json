@@ -1,0 +1,24 @@
+{
+  "name": "dnspod-ddns-docker",
+  "version": "1.0.0",
+  "description": "dnspod-ddns is a ddns updating tool of DNSPod. It was originally designed for use with node.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "dnspod-ddns --dns-domain yourdomain.com --dns-host yourhost --login-token yourtoken"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fxfboy/dnspod-ddns-docker.git"
+  },
+  "keywords": [
+    "dnspod",
+    "ddns"
+  ],
+  "author": "fxfboy@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fxfboy/dnspod-ddns/issues"
+  },
+  "homepage": "https://github.com/fxfboy/dnspod-ddns#readme"
+}

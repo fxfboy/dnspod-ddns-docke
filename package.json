@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "dnspod-ddns --dns-domain yourdomain.com --dns-host yourhost --login-token yourtoken"
+    "start": "dnspod-ddns --dns-domain $domain --dns-host $host --login-token $token --daemon"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/fxfboy/dnspod-ddns/issues"
   },
-  "homepage": "https://github.com/fxfboy/dnspod-ddns#readme"
+  "homepage": "https://github.com/fxfboy/dnspod-ddns#readme",
+  "dependencies": {
+    "dnspod-ddns": "^0.2.4"
+  }
 }
